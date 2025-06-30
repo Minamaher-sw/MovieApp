@@ -1,0 +1,39 @@
+.del{
+  cursor: pointer;
+  color:brown;
+  transition: .3s;
+}
+.del:hover{
+  transform: rotate(10deg);
+}
+
+.favorite-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.favorite-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.3);
+}
+
+.favorite-img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.delete-btn {
+  opacity: 0.85;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.delete-btn:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
