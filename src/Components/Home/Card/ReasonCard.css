@@ -1,0 +1,52 @@
+/* src/components/ReasonCard.css */
+
+.reason-card {
+  background: #1e1e2d; /* A dark purplish-grey, adjust to match your exact dark theme color */
+  border-radius: 12px; /* Rounded corners */
+  color: #deeffd; /* Light text color for contrast */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+  /* Using h-100 and flexbox on Card.Body ensures content alignment for consistent height */
+}
+
+.reason-card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+}
+
+.reason-card-icon-wrapper {
+  /* This wrapper helps position and style the background glow of the icon */
+  background: radial-gradient(circle at center, rgba(140, 0, 255, 0.3) 0%, transparent 70%); /* Purple glow */
+  padding: 20px; /* Space around the icon */
+  border-radius: 50%; /* Make it circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.reason-card-icon {
+  width: 80px; /* Adjust icon size */
+  height: 80px; /* Adjust icon size */
+  color: #ff00ff; /* A bright purple/pink for the icon itself, adjust to your exact icon color */
+  filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.5)); /* Glow effect for the icon */
+}
+
+/* Overriding default Bootstrap text colors if needed to match the design */
+.reason-card-title {
+  color: #deeffd !important; /* Ensure title is light */
+  font-weight: 600;
+}
+
+.reason-card-description {
+  color: #a0a0a0 !important; /* Ensure description is a lighter grey */
+}
+
+/* Responsive adjustments for smaller screens if default Bootstrap breakpoints aren't enough */
+@media (max-width: 767.98px) { /* Bootstrap's 'md' breakpoint */
+  .reason-card .card-body {
+    padding: 20px !important;
+  }
+  .reason-card-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
