@@ -1,0 +1,41 @@
+.netflix-navbar {
+  background-color: #141414 !important; /* Netflix dark */
+}
+
+.netflix-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e50914 !important; /* Netflix red */
+  text-decoration: none;
+}
+
+.netflix-brand:hover {
+  color: #f6121d !important; /* lighter Netflix red on hover */
+}
+
+.nav-link {
+  color: #ffffffcc !important; /* muted white */
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e50914 !important;
+}
+
+.active-link {
+  color: #e50914 !important;
+  border-bottom: 2px solid #e50914;
+}
+
+.favorite-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: #e50914;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-weight: bold;
+}
