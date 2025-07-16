@@ -7,6 +7,7 @@ import Trending from "./trending/trending";
 import ReasonCard from "./Card/DCard";
 import { BsDisplay, BsCloudDownload, BsStars, BsPeople } from 'react-icons/bs';
 import FAQ from "./freqquestion/FAQ";
+import { NavLink } from "react-router-dom";
 const reasonsData = [
     {
         icon: BsDisplay,
@@ -81,6 +82,12 @@ function Home(){
     fetchMovies()
     },[])
     return<>
+         <NavLink
+                      to="/main/profile"
+                      className={({ isActive }) => `nav-link ${isActive ? 'active-link' : ''}`}
+                    >
+                      profile
+        </NavLink>
         <Hero/>
         <section className="reasons-section position-relative bg-dark"> {/* py-5 for vertical padding, bg-dark for background */}
             <h2 className="reasons-heading  position-absolute m-3 top-0 start-0 z-2 text-light">Trending Films</h2> {/* text-start for left align, mb-5 for margin-bottom, text-light for heading color */}
