@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { MdDeleteOutline } from 'react-icons/md';
 import { Card, Button, Container } from 'react-bootstrap';

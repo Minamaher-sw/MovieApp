@@ -3,7 +3,7 @@ import Hero from "./hero/HeroSection"
 import Footer from "./footer/Footer"
 import { instance } from '../../instant/instance';
 import { useEffect, useState } from 'react';
-import Trending from "./trending/trending";
+import Trending from "./trending/Trending";
 import ReasonCard from "./Card/DCard";
 import { BsDisplay, BsCloudDownload, BsStars, BsPeople } from 'react-icons/bs';
 import FAQ from "./freqquestion/FAQ";

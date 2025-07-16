@@ -1,5 +1,5 @@
 
-import React, { useCallback, useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { Card, Button, Container, Spinner } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
@@ -18,7 +18,7 @@ function Movie() {
   const loading = useSelector((state) => state.sliceProduct.loading);
   const [movies, setMovies] = useState([]);
   const [counter, setCounter] = useState(1);
-  const [pages, setPages] = useState(500);
+  const [pages] = useState(500);
   const [input, setInput] = useState({ value: "" });
   const navigate = useNavigate();
   const favorite = useSelector((state) => state.sliceFavorite.favorite);
