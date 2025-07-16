@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import Navbare  from '../navBar/navBar'
+import Navbare  from '../navBar/NavBar'
 import { Container } from 'react-bootstrap'
 import { LangProvider } from '../../context/lang'
 import { ThemeProvider } from '../../context/them'
