@@ -1,9 +1,8 @@
 
-import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Login from './Components/login/login'
 import Register from './Components/register/Register'
-import Navbare  from './Components/navBar/navBar'
 import NotFound from './Components/notfound/NotFound'
 import Movie from './Components/movies/Movie'
 import MovieDetails from './Components/movies/MovieDetails'
