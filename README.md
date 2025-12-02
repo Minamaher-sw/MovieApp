@@ -339,18 +339,18 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 <div align="center">
 
-### Your Name
+### Mina Maher
 
-📧 **Email:** your-email@example.com
+📧 **Email:** mosadefmena185@gmail.com
 
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=web)](your-portfolio-link)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](your-linkedin-link)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github)](https://github.com/Minamaher-sw)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=web)](https://calm-meringue-804f52.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mina-maher-4a3174210/)
 
 ---
 
 <p>
-  <strong>Made with ❤️ by Your Name</strong><br>
+  <strong>Made with ❤️ by Mina Maher</strong><br>
   <sub>Feel free to ⭐ star this repository if you found it helpful!</sub>
 </p>
 
