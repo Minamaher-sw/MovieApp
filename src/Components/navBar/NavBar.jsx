@@ -29,7 +29,7 @@ function Navbare() {
     >
       <Container>
         <NavLink to="/" className="navbar-brand netflix-brand">
-          Minaflix Clone
+        Netflix
         </NavLink>
 
         <Navbar.Toggle aria-controls="main-navbar" />
